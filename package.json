@@ -1,0 +1,22 @@
+{
+  "name": "asteroids-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "package": "tar --exclude dist/asteroids-node.tar.gz -zcvf dist/asteroids-node.tar.gz package.json package-lock.json dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/rpi-gpio": "^2.1.1",
+    "@types/ws": "^8.5.4",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "rpi-gpio": "^2.1.7",
+    "ws": "^8.13.0"
+  }
+}

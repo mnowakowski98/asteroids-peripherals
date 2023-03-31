@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "target": "ES5",
+        "allowJs": true,
+        "sourceMap": true,
+	"outDir": "./dist"
+    },
+    "include": [
+        "**/*.ts",
+        "**/index.ts"
+    ],
+    "exclude": [
+        "node_modules/",
+        "dist/"
+    ]
+}
